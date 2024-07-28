@@ -29,6 +29,6 @@ public class HelloResource {
 
     @GetMapping(path = "/hello", produces = MediaType.APPLICATION_JSON_VALUE)
     public Hello getHello(){
-        return new Hello("Hello Docker World");
+        return new Hello("Hello Docker World!");
     }
 }
